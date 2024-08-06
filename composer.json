@@ -1,5 +1,5 @@
 {
-    "name": "jefersondaniel/novoboletophp",
+    "name": "hello-solucoes/novoboletophp",
     "description": "Geração de boletos em HTML e PDF. Baseado no boletophp",
     "require": {
         "twig/twig": "~1.18",
