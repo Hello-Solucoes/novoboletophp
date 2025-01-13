@@ -2,6 +2,7 @@
 *.swo
 bin
 vendor
+.idea
 composer.phar
 phpunit.xml
 composer.lock

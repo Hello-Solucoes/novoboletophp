@@ -63,7 +63,8 @@ abstract class Boleto {
         $ano = $data[2];
         $mes = $data[1];
         $dia = $data[0];
-        return(abs(($this->dateToDays("1997","10","07")) - ($this->dateToDays($ano, $mes, $dia))));
+        $fator = (abs(($this->dateToDays("1997","10","07")) - ($this->dateToDays($ano, $mes, $dia))));
+        return $fator > 9999 ? $fator - 9000 : $fator;
     }
 
     protected function dateToDays($year,$month,$day)
